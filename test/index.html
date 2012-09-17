@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="css/blueprint/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="css/blueprint/print.css" media="print" rel="stylesheet" type="text/css" />
+    <link href="css/moderna.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="span-20">
+        <div class="span-5 append-1">
+          <img src="images/logo_logicalbricks.png" class="logo-factura" />
+        </div>
+        <div class="span-13 prepend-top last">
+          <span class="tipo">Factura</span>
+          <br />
+          <span class="grande">LogicalBricks Solutions</span>
+          <br />
+          <span class="eslogan">Construyendo soluciones tecnológicas...</span> 
+        </div>
+        <div class="span-20 last prepend-top marco">
+          <div class="cabecera">
+          </div>
+          <div class="cuerpo">
+            <table class="cliente">
+              <tr>
+                <th>Cliente:</th>
+                <td>PIELES FINAS PARA CABALLERO SA DE CV</td>
+              </tr>
+              <tr>
+                <th>RFC:</th>
+                <td>XBXX010101000</td>
+              </tr>
+              <tr>
+                <th>Dirección:</th>
+                <td>
+                  PRINCIPAL 400 D CENTRO OAXACA DE JUAREZ OAXAC MÉXICO 68000
+                </td>
+              </tr>
+              <tr>
+                <th>Lugar y Fecha:</th>
+                <td>
+                  Oaxaca de Juárez, Oaxaca a 15 de Septiembre de 2012
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="span-4 last">
+        <div class="span-4 last marco">
+          <div class="cabecera">
+            Factura No.
+          </div>
+          <div class="cuerpo rojo">
+            <span>A - 100</span>
+          </div>
+        </div>
+        <div class="span-4 last marco prepend-top">
+          <div class="cabecera">
+            Fecha
+          </div>
+          <div class="cuerpo rojo">
+            <span>15/09/2012</span>
+          </div>
+        </div>
+        <div class="span-4 last marco prepend-top">
+          <div class="cabecera">
+            Método de pago
+          </div>
+          <div class="cuerpo">
+            <span>Pago en una sola exhibición</span>
+          </div>
+        </div>
+        <div class="span-4 last marco prepend-top">
+          <div class="cabecera">
+            Forma de pago
+          </div>
+          <div class="cuerpo">
+            <span>Efectivo</span>
+          </div>
+        </div>
+      </div>
+      <div class="span-24 marco prepend-top last">
+        <table width="960px" id="factura">
+          <thead>
+            <tr>
+              <th width="15%">Cantidad</th>
+              <th width="15%">Unidad</th>
+              <th>Descripción</th>
+              <th width="15%" class="texto-derecha">Precio</th>
+              <th width="15%" class="texto-derecha">Importe</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+      <div class="span-24 last">
+        <table width="960px" id="factura">
+          <tbody>
+            <tr>
+              <td width="15%">1</td>
+              <td width="15%">pieza</td>
+              <td>Monitor 15''</td>
+              <td width="15%" class="texto-derecha">1000</td>
+              <td width="15%" class="texto-derecha">1000</td>
+            </tr>
+            <tr>
+              <td width="15%">1</td>
+              <td width="15%">pieza</td>
+              <td>Monitor 15''</td>
+              <td width="15%" class="texto-derecha">1000</td>
+              <td width="15%" class="texto-derecha">1000</td>
+            </tr>
+            <tr>
+              <td width="15%">1</td>
+              <td width="15%">pieza</td>
+              <td>Monitor 15''</td>
+              <td width="15%" class="texto-derecha">1000</td>
+              <td width="15%" class="texto-derecha">1000</td>
+            </tr>
+          </tbody>
+          <tfoot class="texto-derecha">
+            <tr>
+              <td colspan="3"></td>
+              <th class="texto-derecha"><b>Subtotal</b></td>
+              <td class="texto-derecha">3000</td>
+            </tr>
+            <tr>
+              <td colspan="3"></td>
+              <th class="texto-derecha"><b>IVA (16%)</b></td>
+              <td class="texto-derecha">+ 480</td>
+            </tr>
+            <tr>
+              <td colspan="3"></td>
+              <th class="retencion"><b>Ret. IVA</b></td>
+              <td class="texto-derecha retencion">- 319.98</td>
+            </tr>
+            <tr>
+              <td colspan="3"></td>
+              <th><b>TOTAL</b></td>
+              <td><b>3160.02</b></td>
+            </tr>
+          </tfoot>
+        </table>
+        <div class="span-24 last marco mayusculas">
+          <div class="cabecera">
+            Total con letra
+          </div>
+          <div class="cuerpo">
+            TRES MIL CIENTO SESENTA PESOS 02/100 M.N.
+          </div>
+        </div>
+      </div>
+      <div class="span-24 last">
+        <hr />
+      </div>
+      <div class="span-6 colborder" id="qr">
+        <div id="reproduccion">
+          La reproducción apócrifa de este comprobante constituye un delito en los términos de las disposiciones fiscales
+          <br /><br />
+          <center>
+            <img src="images/qr.png" width=140 height=140 />
+            <br /><br />
+            <span id="sicofi"><b>Número de aprobación SICOFI:</b> 12345678</span>
+          </center>
+          <p id="vigencia">
+          Este comprobante tendrá una vigencia de dos años contados a partir de la fecha de aprobación de la asignación de folios, la cual es: dd/mm/aaaa”
+          </p>
+        </div>
+      </div>
+      <div class="span-10 colborder" id="emisor">
+        R.F.C. XBXX010101000
+        <br />
+        PIELES FINAS PARA CABALLERO SA DE CV
+        <br />
+        <address>
+          <p>
+          PRINCIPAL 400 D
+          CENTRO
+          OAXACA DE JUAREZ Oaxaca México 
+          68000
+          </p>
+        </address>
+        <p>Régimen: Persona Moral - Régimen general</p>
+      </div>
+      <div class="span-6 last" id="informacion">
+        <div id="veracidad">
+          <p>LA VERACIDAD DE LA INFORMACIÓN DEL COMPROBANTE ES RESPONSABILIDAD DEL EMISOR.</p>
+          <p>VERIFICAR LA VALIDEZ DEL COMPROBANTE ES RESPONSABILIDAD DEL RECEPTOR.</p>
+        </div>
+
+        <p>Si desea más información visite: <a href='http://cbbfactura.com/validar' class="no-link">CBBFactura</a></p>
+        <p>
+        Factura generada a través de <a href="http://cbbfactura.com">CBBFactura</a>
+        </p>
+        <p class="right">
+        Hoja <span>1</span> de <span>1</span>.
+        </p>
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
