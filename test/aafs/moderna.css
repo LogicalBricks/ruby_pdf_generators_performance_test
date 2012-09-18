@@ -1,0 +1,168 @@
+table.cliente td, table.cliente th{
+  border-bottom: 1px solid;
+}
+
+img.logo-factura {
+  max-height: 100px;
+  max-width: 250px;
+}
+
+table tbody tr:nth-child(even) td{
+  background: white;
+}
+
+td.retencion{
+  background-color: LightCoral;
+}
+
+thead th {
+  background: #3771c8;
+  color: white;
+  border: 1px solid;
+}
+
+table#factura tbody td {
+  border: 1px solid #3771c8;
+}
+
+table thead th:first-child{
+  -webkit-border-top-left-radius: 5px;
+}
+
+table thead th:last-child{
+  -webkit-border-top-right-radius: 5px;
+}
+
+table#factura tbody tr:last-child td:first-child{
+  -webkit-border-bottom-left-radius: 5px;
+}
+
+table#factura tfoot tr:last-child td:last-child{
+  -webkit-border-bottom-right-radius: 5px;
+}
+
+table#factura tfoot th{
+  background: #3771c8;
+  color: white;
+  border: 1px solid;
+}
+
+table#factura tfoot td:last-child{
+  border: 1px solid #3771c8;
+}
+
+table#factura tfoot tr:last-child th{
+  -webkit-border-bottom-left-radius: 5px;
+}
+
+.emisor{
+  font-size: 11px;
+}
+
+span.grande{
+  font-size: 1.5em;
+}
+
+span.eslogan{
+  font-weight: bold;
+}
+
+div.barra{
+  text-align: center;
+  border-top: 2px #ccc solid;
+}
+
+div.logo{
+  text-align: center;
+}
+
+div#folio{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.tipo{
+  font-weight: bold;
+  font-size: 1.3em;
+  padding-right: 10px;
+}
+
+div.marco{
+  text-align: center;
+  font-weight: bold;
+  float: right;
+}
+
+div.marco .cabecera{
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  background: #3771c8;
+  color: white;
+  border: 1px black solid;
+  min-height: 5px;
+}
+
+div.marco .cuerpo{
+  -webkit-border-bottom-left-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border: 1px black solid;
+}
+
+.rojo{
+  color: red;
+  font-size: 1.1em;
+}
+
+div.marco .cuerpo span{
+  border-left: 1px;
+}
+
+.texto-derecha{
+  text-align:right;
+}
+
+.texto-izquierda{
+  text-align:left;
+}
+
+table#factura tfoot tr td, table#factura tfoot tr th{
+  text-align:right;
+}
+
+.mayusculas{
+  text-transform: uppercase;
+}
+
+div#qr{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+div#qr div#reproduccion{
+  text-align: justify;
+  font-size: 8px;
+}
+
+div#qr span#sicofi{
+  font-size: 11px;
+}
+
+div#qr p#vigencia{
+  font-size: 8px;
+  text-align: justify;
+}
+
+div#emisor{
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+div#informacion{
+  font-size: 12px;
+  text-align:justify;
+}
+
+div#veracidad{
+ font-size: 10px;
+}
