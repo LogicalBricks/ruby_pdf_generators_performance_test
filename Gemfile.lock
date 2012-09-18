@@ -1,12 +1,4 @@
 GIT
-  remote: git://github.com/amardaxini/acts_as_flying_saucer.git
-  revision: 3212f41717d9ea1304398df6d6a2a35586809db7
-  specs:
-    acts_as_flying_saucer (1.0.3)
-      nailgun
-      tidy_ffi
-
-GIT
   remote: git://github.com/mbreit/rtex.git
   revision: 4130018d44031d55dd67ddea9335ba74dc0da2c1
   specs:
@@ -15,6 +7,9 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
+    acts_as_flying_saucer (1.0.3)
+      nailgun
+      tidy_ffi
     ffi (1.1.5)
     nailgun (0.0.3)
     tidy_ffi (0.1.4)
@@ -24,5 +19,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  acts_as_flying_saucer!
+  acts_as_flying_saucer
   rtex!
